@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -699,7 +699,14 @@ p {
     font-weight: 700;
 }
 
+.social_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .social {
+    display: inline;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -775,7 +782,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
