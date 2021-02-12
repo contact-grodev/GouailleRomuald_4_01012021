@@ -1,4 +1,4 @@
-body {
+﻿body {
     margin: 0;
     padding: 0;
     background: #fff;
@@ -742,8 +742,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -753,8 +753,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge,
     .bloc-fill-screen .fill-bloc-top-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media (max-width: 767px) {
@@ -905,16 +905,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-
-.z-index__0 {
-    z-index: 0;
-}
-
-.z-index__1 {
-    z-index: 1;
-}
-
-.z-index__2 {
-    z-index: 2;
 }
