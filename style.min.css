@@ -114,7 +114,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -555,7 +555,7 @@ label,
 p {
     font-family: helvetica;
     font-weight: 400;
-    color: #575757 !important;
+    color: #575757;
 }
 .container {
     max-width: 1000px;
@@ -657,13 +657,13 @@ h4 {
     background-color: #364577;
 }
 .bgc-atomic-tangerine {
-    background-color: #f3976c;
+    background-color: #99390d;
 }
 .tc-white {
     color: #fff !important;
 }
 .btn-atomic-tangerine {
-    background: #f3976c;
+    background: #99390d;
     color: #fff !important;
 }
 .btn-atomic-tangerine:hover {
@@ -677,7 +677,7 @@ h4 {
     color: #ccc !important;
 }
 .ltc-atomic-tangerine {
-    color: #f3976c !important;
+    color: #99390d !important;
 }
 .ltc-atomic-tangerine:hover {
     color: #c27956 !important;
@@ -905,4 +905,16 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.z-index__0 {
+    z-index: 0;
+}
+
+.z-index__1 {
+    z-index: 1;
+}
+
+.z-index__2 {
+    z-index: 2;
 }

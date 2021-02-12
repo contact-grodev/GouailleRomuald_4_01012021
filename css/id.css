@@ -1,0 +1,21 @@
+#partners {
+	color: white;
+	margin-bottom: 1.5em;
+}
+
+#partners ul {
+	margin: 0;
+	border: none;
+}
+
+#partners li {
+	margin: 0;
+}
+
+#partners li a:link {
+	color: white;
+}
+
+#partners li a:visited {
+	color: #f3d6ab;
+}
